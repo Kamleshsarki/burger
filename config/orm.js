@@ -86,6 +86,3 @@ var orm = {
   }
 };
 module.exports = orm;
-© 2019 GitHub, Inc.
-    }
-}

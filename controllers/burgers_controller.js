@@ -50,4 +50,3 @@ router.get("/", function(req, res) {
   });
 });
 module.exports = router;
-© 2019 GitHub, Inc.
