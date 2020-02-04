@@ -1,11 +1,11 @@
-const express = require("express");
-const burger = require("../models/burger");
+var express = require("express");
+var burger = require("../models/burger");
 
-const router = express.Router();
+var router = express.Router();
 
 router.get("/", function(req, res) {
   burger.selectAll(function(data) {
-    const hdbrsObj = {
+    var hdbrsObj = {
       burgers: data
     };
     console.log(hdbrsObj);
